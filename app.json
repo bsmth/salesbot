@@ -1,13 +1,13 @@
 {
   "name": "Salesbot",
-  "description": "Salesbot is a spammy open-source sales spammer Slackbot",
+  "description": "Salesbot is an open-source SALESbot",
   "repository": "https://github.com/tcob/salesbot",
   "success_url": "/",
   "env": {
     "HEROKU_APP_NAME": {
       "required": true
     },
-    "SPAMBOT_COMMAND_TOKEN": {
+    "SALESBOT_COMMAND_TOKEN": {
       "description": "Slash command token, for the Salesbot command endpoint",
       "required": true
     },
