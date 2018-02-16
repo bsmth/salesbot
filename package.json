@@ -1,0 +1,50 @@
+{
+  "name": "Salesbot",
+  "description": "Salesbot is a spammy open-source Salesbot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src",
+    "notify": "node ./src/tasks/notify",
+    "ramble": "node ./src/commands/report",
+    "test": "eslint ."
+  },
+  "author": {
+    "email": "briantcob@gmail.com",
+    "name": "TCOB"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcob/salesbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tcob/salesbot"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "botkit": "0.0.7",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "express-http-proxy": "^0.6.0",
+    "github-trending": "^1.3.1",
+    "lodash": "^4.6.1",
+    "slack": "^6.1.0",
+    "snoowrap": "^1.14.0"
+  },
+  "keywords": [
+    "slack",
+    "slack-bot",
+    "bot",
+    "spam",
+    "heroku",
+    "sales"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": "5.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.1"
+  }
+}

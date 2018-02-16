@@ -1,1 +1,13 @@
-# salesbot
+# 🤖 Salesbot
+
+[![Build Status](https://travis-ci.org/tcob/salesbot.svg?branch=master)](https://travis-ci.org/tcob/salesbot)
+
+A Slack Salesbot bot.
+
+## Supported `/slash` commands
+
+- `/sales` or `/sales help` - List available commands
+
+## Acknowlegement
+
+Based on [Starbot](https://github.com/mattcreager/starbot) by Matthew Creager (creager@heroku.com)
