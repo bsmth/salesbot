@@ -1,7 +1,7 @@
 {
   "name": "Salesbot",
   "description": "Salesbot is a spammy open-source Salesbot",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "src/index.js",
   "scripts": {
     "start": "node ./src",
@@ -32,8 +32,7 @@
     "snoowrap": "^1.14.0"
   },
   "keywords": [
-    "slack",
-    "slack-bot",
+    "slackbot",
     "bot",
     "spam",
     "heroku",
@@ -41,7 +40,7 @@
   ],
   "license": "MIT",
   "engines": {
-    "node": "5.7.1"
+    "node": "9.5.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",

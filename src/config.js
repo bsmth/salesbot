@@ -11,7 +11,7 @@ const config = {
   PORT: process.env.PORT,
   PROXY_URI: process.env.PROXY_URI,
   WEBHOOK_URL: process.env.WEBHOOK_URL,
-  SPAMBOT_COMMAND_TOKEN: process.env.SPAMBOT_COMMAND_TOKEN,
+  SALESBOT_COMMAND_TOKEN: process.env.SALESBOT_COMMAND_TOKEN,
   SLACK_TOKEN: process.env.SLACK_TOKEN,
   JEREMY_PASS: process.env.JEREMY_PASS,
   R_SECRET: process.env.R_SECRET,
