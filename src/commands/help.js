@@ -6,7 +6,7 @@ const config = require('../config')
 
 const msgDefaults = {
   response_type: 'in_channel',
-  username: 'Salesbot',
+  username: 'salesbot',
   icon_emoji: config('ICON_EMOJI')
 }
 
@@ -14,7 +14,7 @@ let attachments = [
   {
     title: 'Salesbot is 💯 lit',
     color: '#2FA44F',
-    text: '`/Salesbot help` doesn\'t really work \n`/Salesbot report` sends out the latest and greatest sales news!',
+    text: '`/Salesbot report` sends out the latest and greatest sales news!',
     mrkdwn_in: ['text']
   }
 ]

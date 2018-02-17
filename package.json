@@ -5,8 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node ./src",
-    "notify": "node ./src/tasks/notify",
-    "ramble": "node ./src/commands/report",
+    "report": "node ./src/commands/report",
     "test": "eslint ."
   },
   "author": {
