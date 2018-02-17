@@ -2,11 +2,11 @@
 
 [![Build Status](https://travis-ci.org/tcob/salesbot.svg?branch=master)](https://travis-ci.org/tcob/salesbot)
 
-A Slack Salesbot bot.
+A Slack Salesbot bot for sales.
 
 ## Supported `/slash` commands
 
-- `/sales` or `/sales help` - List available commands
+- `/salesbot` or `/salesbot help` - List available commands
 
 ## Acknowlegement
 
