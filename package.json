@@ -37,7 +37,7 @@
   ],
   "license": "MIT",
   "engines": {
-    "node": "5.7.1"
+    "node": "9.5.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
