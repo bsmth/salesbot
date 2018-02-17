@@ -13,8 +13,6 @@ const config = {
   WEBHOOK_URL: process.env.WEBHOOK_URL,
   SALESBOT_COMMAND_TOKEN: process.env.SALESBOT_COMMAND_TOKEN,
   SLACK_TOKEN: process.env.SLACK_TOKEN,
-  JEREMY_PASS: process.env.JEREMY_PASS,
-  R_SECRET: process.env.R_SECRET,
   ICON_EMOJI: ':stars:'
 }
 

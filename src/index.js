@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => { res.send('\n 👋 🌍 📈📈📈 \n') })
 
-app.post('/commands/salesbot', (req, res) => {
+app.post('/commands/report', (req, res) => {
   let payload = req.body
 
   if (!payload || payload.token !== config('SALESBOT_COMMAND_TOKEN')) {
