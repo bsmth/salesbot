@@ -6,3 +6,8 @@ patch:
   'npm:debug:20170905':
     - botkit > localtunnel > debug:
         patched: '2018-02-17T16:56:02.379Z'
+    - botkit > node-ews > debug:
+        patched: '2018-02-17T16:56:48.982Z'
+  'npm:ms:20170412':
+    - botkit > node-ews > debug > ms:
+        patched: '2018-02-17T16:56:48.982Z'
