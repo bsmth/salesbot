@@ -20,7 +20,7 @@ bot.message((msg) => {
     icon_emoji: config('ICON_EMOJI'),
     channel: msg.channel,
     username: 'Salesbot',
-    text: `Reporsting on a frequently base."`
+    text: `Reporsting on a frequently base.`
   }, (err, data) => {
     if (err) throw err
 
