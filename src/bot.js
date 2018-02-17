@@ -20,13 +20,13 @@ bot.message((msg) => {
     icon_emoji: config('ICON_EMOJI'),
     channel: msg.channel,
     username: 'Salesbot',
-    text: `beep boop: I hear you loud and clear!"`
+    text: `Reporsting on a frequently base."`
   }, (err, data) => {
     if (err) throw err
 
     let txt = _.truncate(data.message.text)
 
-    console.log(`🤖  beep boop: I responded with "${txt}"`)
+    console.log(`I responded with "${txt}"`)
   })
 })
 
