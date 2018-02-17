@@ -22,13 +22,13 @@ if (config('PROXY_URI')) {
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-app.get('/', (req, res) => { res.send('\n 👋 🌍 📈📈📈 \n') })
+app.get('/', (req, res) => { res.send('\n 👋 🌍 \n') })
 
-app.post('/commands/report', (req, res) => {
+app.post('/commands/salesbot', (req, res) => {
   let payload = req.body
 
   if (!payload || payload.token !== config('SALESBOT_COMMAND_TOKEN')) {
-    let err = '✋  WHAT!? An invalid slash token was provided\n' +
+    let err = '✋  Star—what? An invalid slash token was provided\n' +
               '   Is your Slack slash token correctly configured?'
     console.log(err)
     res.status(401).end(err)
@@ -45,10 +45,10 @@ app.post('/commands/report', (req, res) => {
 app.listen(config('PORT'), (err) => {
   if (err) throw err
 
-  console.log(`\n💯 Check out Salesbot at http://localhost:${config('PORT')} 🚀`)
+  console.log(`\n🚀  Salesbot LIVES on PORT ${config('PORT')} 🚀`)
 
   if (config('SLACK_TOKEN')) {
-    console.log(`🤖 💯 beep boop: @Salesbot is real-time\n`)
+    console.log(`🤖  beep boop: @salesbot is real-time\n`)
     bot.listen({ token: config('SLACK_TOKEN') })
   }
 })

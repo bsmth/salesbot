@@ -6,15 +6,21 @@ const config = require('../config')
 
 const msgDefaults = {
   response_type: 'in_channel',
-  username: 'salesbot',
+  username: 'Salesbot',
   icon_emoji: config('ICON_EMOJI')
 }
 
 let attachments = [
   {
-    title: 'Salesbot is 💯 lit',
+    title: 'Salesbot will help you find the hippest repos on GitHub',
     color: '#2FA44F',
-    text: '`/Salesbot report` sends out the latest and greatest sales news!',
+    text: '`/salesbot repos` returns hip repos \n`/salesbot javascript` returns hip JavaScript repos',
+    mrkdwn_in: ['text']
+  },
+  {
+    title: 'Configuring Salesbot',
+    color: '#E3E4E6',
+    text: '`/salesbot help` ... you\'re lookin at it! \n',
     mrkdwn_in: ['text']
   }
 ]
