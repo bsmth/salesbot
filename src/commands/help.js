@@ -12,15 +12,15 @@ const msgDefaults = {
 
 let attachments = [
   {
-    title: 'Salesbot will help you find the hippest repos on GitHub',
+    title: 'Salesbot will help you increase your sales potential',
     color: '#2FA44F',
-    text: '`/salesbot repos` returns hip repos \n`/salesbot javascript` returns hip JavaScript repos',
+    text: '`/salesbot report` returns the latest sales news',
     mrkdwn_in: ['text']
   },
   {
     title: 'Configuring Salesbot',
     color: '#E3E4E6',
-    text: '`/salesbot help` ... you\'re lookin at it! \n',
+    text: '`/salesbot help` list commands \n',
     mrkdwn_in: ['text']
   }
 ]
