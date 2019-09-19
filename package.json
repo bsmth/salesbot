@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node ./src",
     "report": "node ./src/commands/report",
-    "test": "eslint ."
+    "test": "eslint .",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": {
     "email": "briantcob@gmail.com",
@@ -26,7 +28,8 @@
     "express": "^4.13.4",
     "express-http-proxy": "^0.6.0",
     "lodash": "^4.6.1",
-    "slack": "^6.1.0"
+    "slack": "^6.1.0",
+    "snyk": "^1.69.7"
   },
   "keywords": [
     "slack",
@@ -41,5 +44,6 @@
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-google": "^0.7.1"
-  }
+  },
+  "snyk": true
 }
